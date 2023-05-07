@@ -12,7 +12,7 @@ const key = 'key';
 const url = 'http://img.example.com/pretty/image.jpg';
 
 let builder = new UrlBuilder(
-     new UrlSigner(key, salt)
+    new UrlSigner(key, salt)
 );
 
 builder = builder.with(
